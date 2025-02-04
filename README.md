@@ -69,14 +69,13 @@ npm run dev
   ```json
   {
     "username": "exampleuser",
-    "password": "securePassword123"
+    "email": "user@example.com",
   }
   ```
 - **Response:**  
   ```json
   {
     "message": "Login successful!",
-    "token": "your_jwt_token_here"
   }
   ```
 
@@ -98,7 +97,6 @@ npm run dev
 - User registration with validation  
 - Password hashing with bcrypt  
 - JWT-based authentication  
-- Protected routes using middleware  
 
 ## Technologies Used  
 
